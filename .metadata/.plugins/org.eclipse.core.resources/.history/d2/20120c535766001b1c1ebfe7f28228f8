@@ -1,0 +1,37 @@
+/*
+ ============================================================================
+ Name        : switch.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	int choice;
+	int num1,num2,choice,result;
+	printf("1 for Porotta \n2 for Biriyani\n3 for Fried Rice\n4 for Chappatti\nEnter your choice");
+	scanf("%d",&choice);
+	switch(choice){
+	case 1:
+		printf("you have selected Porotta");
+		break;
+	case 2:
+		printf("you have selected Biriyani");
+		break;
+	case 3:
+		printf("you have selected Fried Rice");
+		break;
+	case 4:
+		printf("you have selected Chapatti");
+		break;
+	default:
+		printf("huh!! sorry");
+	}
+
+	return EXIT_SUCCESS;
+}

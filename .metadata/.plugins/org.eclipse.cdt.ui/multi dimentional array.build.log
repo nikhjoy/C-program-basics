@@ -1,0 +1,7 @@
+23:18:59 **** Incremental Build of configuration Debug for project multi dimentional array ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\multi dimentional array.o" "..\\src\\multi dimentional array.c" 
+gcc -o "multi dimentional array.exe" "src\\multi dimentional array.o" 
+
+23:19:00 Build Finished. 0 errors, 0 warnings. (took 769ms)
+

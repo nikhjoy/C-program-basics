@@ -1,0 +1,6 @@
+22:45:51 **** Incremental Build of configuration Debug for project string ****
+Info: Internal Builder is used for build
+gcc -o string.exe "src\\string.o" 
+
+22:45:51 Build Finished. 0 errors, 0 warnings. (took 385ms)
+

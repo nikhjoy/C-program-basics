@@ -1,0 +1,7 @@
+14:46:36 **** Incremental Build of configuration Debug for project sum of array ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sum of array.o" "..\\src\\sum of array.c" 
+gcc -o "sum of array.exe" "src\\sum of array.o" 
+
+14:46:37 Build Finished. 0 errors, 0 warnings. (took 465ms)
+
